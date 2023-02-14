@@ -1,7 +1,14 @@
-h1{
-    color: blue;
-    size: 50px;
+header{
+    
+    background-color: #5353f6;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 0.6px;
+    line-height: 30px;
 }
-p{
-    font-size: 20px;
+body{
+    margin: 0;
 }
