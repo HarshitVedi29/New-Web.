@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+
+}
 header{
     
     background-color: #4794f9;
@@ -9,13 +13,9 @@ header{
     letter-spacing: 0.6px;
     line-height: 30px;
 }
-body{
-    margin: 0;
 
-}
 article{
     max-width: 850px;
     margin: auto;
-    BACKGROUND-COLOR: blanchedalmond;
-
+    padding: 70px;
 }
