@@ -31,12 +31,22 @@ article {
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    text-transform: uppercase;
+
 }
-.hero-image img{
-   
+
+.hero-image {
+    margin: 50px 0;
+}
+
+.hero-image img {
+
     max-width: 100%;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 h1 {
     margin: 0%;
     font-size: 52px;
@@ -44,6 +54,15 @@ h1 {
     letter-spacing: 0.015em;
 }
 
-#title-selection{
-    margin: bottom 50px; ;
+#Contant-section {
+    max-width: 650px;
+    margin: auto;
+}
+
+#title-selection {
+    margin: bottom 50px;
+    ;
+}
+iframe{
+    margin:50px 0;
 }
