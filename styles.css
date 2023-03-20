@@ -1,6 +1,9 @@
 body {
     margin: 0;
-
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    color: #4794f9
 }
 
 header {
@@ -18,7 +21,8 @@ header {
 article {
     max-width: 850px;
     margin: auto;
-    padding: 70px;
+    padding: 8px;
+    padding-top: 70px;
 }
 
 .author-name {
@@ -27,11 +31,21 @@ article {
     line-height: 18px;
 }
 
-.share-post {
+.share-post,
+.link-title {
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
 
+}
+.share-post span{
+    margin-right: 4px;
+}
+.share-post img{
+    vertical-align: middle;
+}
+.link-title{
+    margin-bottom: 12px;
 }
 
 .hero-image {
@@ -49,9 +63,14 @@ article {
 
 h1 {
     margin: 0%;
+    margin-bottom: 10px;
     font-size: 52px;
     line-height: 58px;
     letter-spacing: 0.015em;
+}
+article P{
+    font-size: 16px;
+    line-height: 24px;
 }
 
 #Contant-section {
@@ -59,10 +78,35 @@ h1 {
     margin: auto;
 }
 
-#title-selection {
-    margin: bottom 50px;
-    ;
+iframe {
+    margin: 50px 0;
+    max-width: 100%;
 }
-iframe{
-    margin:50px 0;
+
+footer {
+    list-style-type: none;
+    background-color: #F6F6F6;
+    max-width: 650PX;
+    margin: auto;
+    padding: 20PX 15PX;
+    margin-bottom: 80px;
+}
+footer a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+footer ul li:last-of-type{
+    margin-bottom: 0;
 }
